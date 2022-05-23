@@ -1,0 +1,39 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az71-251",
+    "children" : [ {
+      "name" : "2378-MainThread",
+      "children" : [ {
+        "name" : "test_allure_simple_test_2 displayName2",
+        "uid" : "7553910252d30ff7",
+        "parentUid" : "0e493c68e68741ca37d706aecf6c47fc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653318776231,
+          "stop" : 1653318776232,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_allure_simple_test displayName",
+        "uid" : "88527ed6d4795f9a",
+        "parentUid" : "0e493c68e68741ca37d706aecf6c47fc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653318776229,
+          "stop" : 1653318776229,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0e493c68e68741ca37d706aecf6c47fc"
+    } ],
+    "uid" : "aaa100cc0f5d369a820fc3e20fcce50e"
+  } ],
+  "name" : "timeline"
+}
