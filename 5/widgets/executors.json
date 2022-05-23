@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://andreyLetenkovWefox.github.io/sandbox",
+  "buildOrder" : 5,
+  "buildName" : "GitHub Actions Run #2372182097",
+  "buildUrl" : "https://github.com/andreyLetenkovWefox/sandbox/actions/runs/2372182097",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://andreyLetenkovWefox.github.io/sandbox/5/"
+} ]
