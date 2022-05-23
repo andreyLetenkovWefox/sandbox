@@ -4,7 +4,7 @@ import allure
 @allure.title("test_allure_simple_test displayName")
 def test_allure_simple_test():
     with allure.step("Simple step"):
-        pass
+        print("pifubgzpioer")
 
     with allure.step("Simple complex step"):
         with allure.step("Simple nested step"):
@@ -15,7 +15,7 @@ def test_allure_simple_test():
 
 @allure.title("test_allure_simple_test_2 displayName2")
 def test_allure_simple_test_fail():
-    assert True, "An error occurred!"
+    assert False, "An error occurred!"
 
 
 @allure.step("Simple function with step decorator")
