@@ -13,6 +13,11 @@ def test_allure_simple_test():
     simple_step_func("function parameter")
 
 
+@allure.title("test_allure_simple_test_2 displayName2")
+def test_allure_simple_test_fail():
+    assert False, "An error occurred!"
+
+
 @allure.step("Simple function with step decorator")
 def simple_step_func(param):
     with allure.step(f"function parameter: {param}"):
