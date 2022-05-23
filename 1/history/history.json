@@ -4,11 +4,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "69acdde73b73de30",
+      "reportUrl" : "https://andreyLetenkovWefox.github.io/sandbox/1//#testresult/69acdde73b73de30",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653314202278,
+        "stop" : 1653314202279,
+        "duration" : 1
+      }
+    }, {
       "uid" : "a12e9fb3ee9d49c7",
       "reportUrl" : "https://andreyLetenkovWefox.github.io/sandbox/1//#testresult/a12e9fb3ee9d49c7",
       "status" : "passed",

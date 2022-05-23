@@ -1,2 +1,2 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Mon May 23 13:38:26 GMT 2022","Mon May 23 13:38:26 GMT 2022","0","","test_example","","","","test_allure_simple_test displayName",""
+"passed","Mon May 23 13:56:42 GMT 2022","Mon May 23 13:56:42 GMT 2022","1","","test_example","","","","test_allure_simple_test displayName",""
