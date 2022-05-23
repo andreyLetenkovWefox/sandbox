@@ -55,4 +55,4 @@ jobs:
           context: 'Test report'
           state: 'success'
           sha: ${{ github.event.pull_request.head.sha || github.sha }}
-          target_url: andreyletenkovwefox.github.io/sandbox/${{ github.run_number }}
+          target_url: https://andreyletenkovwefox.github.io/sandbox/${{ github.run_number }}
