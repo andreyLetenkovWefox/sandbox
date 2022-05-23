@@ -15,7 +15,7 @@ def test_allure_simple_test():
 
 @allure.title("test_allure_simple_test_2 displayName2")
 def test_allure_simple_test_fail():
-    assert False, "An error occurred!"
+    assert True, "An error occurred!"
 
 
 @allure.step("Simple function with step decorator")
