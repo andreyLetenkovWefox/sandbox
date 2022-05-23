@@ -1,0 +1,26 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az262-380",
+    "children" : [ {
+      "name" : "2315-MainThread",
+      "children" : [ {
+        "name" : "test_allure_simple_test displayName",
+        "uid" : "7d1cf62c40dc156",
+        "parentUid" : "7a6f1e80333019a20d349e55f33cc046",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653312984269,
+          "stop" : 1653312984270,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7a6f1e80333019a20d349e55f33cc046"
+    } ],
+    "uid" : "2450fdeeced11d965bff8a7b56e2e16f"
+  } ],
+  "name" : "timeline"
+}

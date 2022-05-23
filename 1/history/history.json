@@ -1,0 +1,22 @@
+{
+  "4cfe97cf79f55a972de99759208f7e54" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7d1cf62c40dc156",
+      "reportUrl" : "https://andreyLetenkovWefox.github.io/sandbox/1//#testresult/7d1cf62c40dc156",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653312984269,
+        "stop" : 1653312984270,
+        "duration" : 1
+      }
+    } ]
+  }
+}
