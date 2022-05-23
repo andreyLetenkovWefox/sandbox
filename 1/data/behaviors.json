@@ -2,13 +2,13 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "children" : [ {
     "name" : "test_allure_simple_test displayName",
-    "uid" : "7d1cf62c40dc156",
+    "uid" : "a12e9fb3ee9d49c7",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1653312984269,
-      "stop" : 1653312984270,
-      "duration" : 1
+      "start" : 1653313106942,
+      "stop" : 1653313106942,
+      "duration" : 0
     },
     "flaky" : false,
     "newFailed" : false,
