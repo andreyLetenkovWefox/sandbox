@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: An error occurred!\nassert False",
+      "children" : [ {
+        "name" : "test_allure_simple_test_2 displayName2",
+        "uid" : "229ac26dbd50f9c5",
+        "parentUid" : "abddd0aab08053ba2ec9bfe982febc62",
+        "status" : "failed",
+        "time" : {
+          "start" : 1653314485992,
+          "stop" : 1653314485992,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "abddd0aab08053ba2ec9bfe982febc62"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
