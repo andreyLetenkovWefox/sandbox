@@ -1,0 +1,227 @@
+{
+  "uid" : "226a384c6dc21cc8",
+  "name" : "test_allure_simple_test displayName",
+  "fullName" : "test_example#test_allure_simple_test",
+  "historyId" : "4cfe97cf79f55a972de99759208f7e54",
+  "time" : {
+    "start" : 1653318680815,
+    "stop" : 1653318680816,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Simple step",
+      "time" : {
+        "start" : 1653318680815,
+        "stop" : 1653318680815,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Simple complex step",
+      "time" : {
+        "start" : 1653318680815,
+        "stop" : 1653318680815,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Simple nested step",
+        "time" : {
+          "start" : 1653318680815,
+          "stop" : 1653318680815,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Simple function with step decorator",
+      "time" : {
+        "start" : 1653318680815,
+        "stop" : 1653318680815,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "function parameter: function parameter",
+        "time" : {
+          "start" : 1653318680815,
+          "stop" : 1653318680815,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Simple step inside test function",
+        "time" : {
+          "start" : 1653318680815,
+          "stop" : 1653318680815,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "param",
+        "value" : "'function parameter'"
+      } ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_example"
+  }, {
+    "name" : "host",
+    "value" : "fv-az186-518"
+  }, {
+    "name" : "thread",
+    "value" : "4799-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_example"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 8,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "f001ba609f8ded37",
+        "reportUrl" : "https://andreyLetenkovWefox.github.io/sandbox/5//#testresult/f001ba609f8ded37",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653318404534,
+          "stop" : 1653318404535,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "bc44c345c6aaf3d6",
+        "reportUrl" : "https://andreyLetenkovWefox.github.io/sandbox/4//#testresult/bc44c345c6aaf3d6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653316170329,
+          "stop" : 1653316170329,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "bd83240092a17150",
+        "reportUrl" : "https://andreyLetenkovWefox.github.io/sandbox/3//#testresult/bd83240092a17150",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653315084571,
+          "stop" : 1653315084571,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "42df2ad98223d604",
+        "reportUrl" : "https://andreyLetenkovWefox.github.io/sandbox/2//#testresult/42df2ad98223d604",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653314485990,
+          "stop" : 1653314485991,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "69acdde73b73de30",
+        "reportUrl" : "https://andreyLetenkovWefox.github.io/sandbox/1//#testresult/69acdde73b73de30",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653314202278,
+          "stop" : 1653314202279,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "a12e9fb3ee9d49c7",
+        "reportUrl" : "https://andreyLetenkovWefox.github.io/sandbox/1//#testresult/a12e9fb3ee9d49c7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653313106942,
+          "stop" : 1653313106942,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "7d1cf62c40dc156",
+        "reportUrl" : "https://andreyLetenkovWefox.github.io/sandbox/1//#testresult/7d1cf62c40dc156",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653312984269,
+          "stop" : 1653312984270,
+          "duration" : 1
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "226a384c6dc21cc8.json",
+  "parameterValues" : [ ]
+}

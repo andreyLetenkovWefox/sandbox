@@ -1,0 +1,21 @@
+[ {
+  "uid" : "c42084f7639122aa",
+  "name" : "test_allure_simple_test_2 displayName2",
+  "time" : {
+    "start" : 1653318680817,
+    "stop" : 1653318680817,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "226a384c6dc21cc8",
+  "name" : "test_allure_simple_test displayName",
+  "time" : {
+    "start" : 1653318680815,
+    "stop" : 1653318680816,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
