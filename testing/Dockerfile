@@ -21,7 +21,4 @@ RUN poetry config virtualenvs.create false && \
 
 COPY $TESTS_PKG/. .
 
-RUN pwd
-RUN ls -l
-
 ENTRYPOINT ["/bin/bash", "-c"]
