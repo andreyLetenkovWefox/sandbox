@@ -7,6 +7,6 @@ inputs:
     default: "pytest"
 runs:
   using: "docker"
-  image: "$GITHUB_WORKSPACE/Dockerfile"
+  image: "../../../Dockerfile"
   args:
     - ${{ inputs.cmd }}
