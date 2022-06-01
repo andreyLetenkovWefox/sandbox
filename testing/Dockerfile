@@ -8,7 +8,7 @@ ENV PYTHONFAULTHANDLER=1 \
     PIP_DEFAULT_TIMEOUT=100 \
     POETRY_VERSION=1.1.8 \
     POETRY_HOME="/opt/poetry" \
-    PYTHONWARNINGS=ignore \
+    PYTHONWARNINGS=ignore
 #    WORKSPACE_DIR="/test-workspace"
 
 RUN pip install "poetry==$POETRY_VERSION"
