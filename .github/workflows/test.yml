@@ -15,6 +15,6 @@ jobs:
         uses: ./.github/actions/qa
         with:
 #          cmd: pytest test_example.py::test_allure_simple_test -vv -s
-          cmd: ls -l
+          cmd: find . | sed -e "s/[^-][^\/]*\//  |/g" -e "s/|\([^ ]\)/|-\1/"
         env:
           TESTS_PKG: testing
