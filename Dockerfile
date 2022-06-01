@@ -21,4 +21,4 @@ RUN poetry config virtualenvs.create false && \
 
 COPY $TESTS_DIR/. .
 
-ENTRYPOINT ["/bin/bash"]
+ENTRYPOINT ["/bin/sh"]
