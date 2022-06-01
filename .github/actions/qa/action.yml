@@ -1,8 +1,8 @@
-name: "Run tests"
-description: "Run the tests via pytest."
+name: "Setup test environment"
+description: "Setup docker container with test environment."
 inputs:
   cmd:
-    description: "Pytest command to execute."
+    description: "Command to execute inside docker container."
     required: true
     default: "pytest"
 runs:
