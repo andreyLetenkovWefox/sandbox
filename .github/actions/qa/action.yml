@@ -1,0 +1,12 @@
+name: "Run tests"
+description: "Run the tests via pytest."
+inputs:
+  cmd:
+    description: "Pytest command to execute."
+    required: true
+    default: "pytest"
+runs:
+  using: "docker"
+  image: "${{ env.GITHUB_WORKSPACE }}/Dockerfile"
+  args:
+    - ${{ inputs.cmd }}
