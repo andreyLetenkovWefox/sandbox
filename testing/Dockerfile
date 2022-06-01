@@ -14,11 +14,14 @@ ENV PYTHONFAULTHANDLER=1 \
 RUN pip install "poetry==$POETRY_VERSION"
 
 WORKDIR $WORKSPACE_DIR
-COPY $TESTS_DIR/poetry.lock $TESTS_DIR/pyproject.toml /
+COPY $TESTS_PKG/poetry.lock $TESTS_PKG/pyproject.toml /
 
 RUN poetry config virtualenvs.create false && \
     poetry install --no-dev --no-interaction --no-ansi
 
-COPY $TESTS_DIR/. .
+COPY $TESTS_PKG/. .
+
+RUN pwd
+RUN ls -l
 
 ENTRYPOINT ["/bin/bash", "-c"]

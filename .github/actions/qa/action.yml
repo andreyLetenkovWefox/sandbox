@@ -7,6 +7,6 @@ inputs:
     default: "pytest"
 runs:
   using: "docker"
-  image: "../../../Dockerfile"
+  image: "../../../testing/Dockerfile"
   args:
     - ${{ inputs.cmd }}
