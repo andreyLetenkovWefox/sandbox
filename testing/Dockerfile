@@ -9,11 +9,11 @@ ENV PYTHONFAULTHANDLER=1 \
     POETRY_VERSION=1.1.8 \
     POETRY_HOME="/opt/poetry" \
     PYTHONWARNINGS=ignore \
-    WORKSPACE_DIR="/test-workspace"
+#    WORKSPACE_DIR="/test-workspace"
 
 RUN pip install "poetry==$POETRY_VERSION"
 
-WORKDIR $WORKSPACE_DIR
+#WORKDIR $WORKSPACE_DIR
 COPY $TESTS_PKG/poetry.lock $TESTS_PKG/pyproject.toml /
 
 RUN poetry config virtualenvs.create false && \
