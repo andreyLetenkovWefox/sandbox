@@ -11,9 +11,10 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v2
+
       - name: Run tests
-        uses: ./.github/actions/qa
-        with:
-          cmd: pytest testing/test_example.py::test_allure_simple_test -vv -s
-        env:
-          TESTS_PKG: testing
+        run: docker-compose -f "docker-compose.yml" up -d --build
+
+      - name: Stop containers
+        if: always()
+        run: docker-compose -f "docker-compose.yml" down

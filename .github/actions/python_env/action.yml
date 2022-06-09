@@ -1,0 +1,12 @@
+name: "Python environment"
+description: "Python & poetry environment set up via docker container."
+inputs:
+  cmd:
+    description: "Shell command to execute inside the container."
+    required: true
+    default: "pytest"
+runs:
+  using: "docker"
+  image: "../../../testing/Dockerfile"
+  args:
+    - ${{ inputs.cmd }}

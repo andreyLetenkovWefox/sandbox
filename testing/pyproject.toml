@@ -8,6 +8,7 @@ authors = ["Andrey Letenkov <andrey.letenkov@wefox.com>"]
 python = "^3.9"
 allure-pytest = "^2.9.45"
 pytest = "^7.1.2"
+kafka-python = "^2.0.2"
 
 [tool.poetry.dev-dependencies]
 
