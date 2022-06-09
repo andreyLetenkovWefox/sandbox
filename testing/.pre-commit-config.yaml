@@ -1,0 +1,18 @@
+repos:
+  - repo: local
+    hooks:
+      - id: black
+        name: black-check
+        entry: cd testing/ && poetry run black --check .
+        language: system
+        pass_filenames: false
+        always_run: true
+  - repo: local
+    hooks:
+      - id: flake8
+        name: flake8-check
+        entry: cd testing/ && poetry run flake8 .
+        language: system
+        pass_filenames: false
+        always_run: true
+
