@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Run tests
-        run: FOOBAR=123 docker-compose -f "testing/docker-compose.yml" up --build
+        run: docker-compose -f "testing/docker-compose.yml" up --build
 
       - name: Stop containers
         if: always()
