@@ -1,3 +1,4 @@
 FROM python:3.9-slim-buster
 
-CMD echo $FOOBAR
+CMD echo $FOOBAR && echo $BAZ
+
