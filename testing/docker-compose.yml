@@ -7,4 +7,4 @@ services:
       dockerfile: Dockerfile
     environment:
       - FOOBAR
-      - BAZ
+      - BAZ=$BAZ-1
